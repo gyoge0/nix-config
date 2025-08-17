@@ -1,0 +1,51 @@
+{
+  flake.modules = {
+    homeManager.shell = { pkgs, ...}: {
+      programs.starship = {
+        enable = true;
+        enableBashIntegration = true;
+        enableZshIntegration = true;
+        enableInteractive = true;
+        settings = {
+          # Get editor completions based on the config schema
+          "$schema" = "https://starship.rs/config-schema.json";
+        
+          # Inserts a blank line between shell prompts
+          add_newline = false;
+        
+          format = ''
+            ($python )$shell $character [$directory](blue) $character '';
+        
+          character = {
+            success_symbol = "[❯](bold #3cc6df)";
+            format = "$symbol";
+          };
+        
+          shell = {
+            powershell_indicator = "W-PS";
+            pwsh_indicator = "PS";
+            format = "[$indicator](#3cc6df)";
+            disabled = false;
+          };
+        
+          directory = {
+            format = "[$path](#b6cbe0)";
+            truncation_symbol = "..\\";
+            truncation_length = 6;
+          };
+        
+          python = {
+            format = "[py $version( \\($virtualenv\\))]($style)";
+            version_format = "$major.$minor";
+            style = "bold green";
+          };
+        
+          # Disable the package module, hiding it from the prompt completely
+          package = {
+            disabled = true;
+          };
+        };
+      };
+    };
+  };
+}
