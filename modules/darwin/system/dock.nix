@@ -17,6 +17,7 @@
       { app = "/System/Applications/Notes.app"; }
       { app = "/System/Applications/Music.app"; }
       { app = "/System/Applications/System Settings.app"; }
+      { app = "/Applications/Firefox.app"; } # brew
       { app = "/Applications/Claude.app"; } # brew
       { app = "/Applications/Ghostty.app"; } # brew
       { app = "/Applications/CotEditor.app/"; } # brew

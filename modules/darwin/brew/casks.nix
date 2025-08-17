@@ -8,5 +8,6 @@
     "visual-studio-code"
     "discord"
     "docker-desktop"
+    "firefox"
   ];
 }
