@@ -31,6 +31,7 @@
             utils
             claude
             ssh
+            nix
             host_macbook
             # ghostty # is broken right now
           ];

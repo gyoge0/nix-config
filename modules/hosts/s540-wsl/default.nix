@@ -16,6 +16,7 @@
       shell
       utils
       claude
+      nix
       host_s540_wsl
     ];
   };
