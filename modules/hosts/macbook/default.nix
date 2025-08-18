@@ -31,6 +31,7 @@
             claude
             ssh
             nix
+            ideavim
             host_macbook
             # ghostty # is broken right now
           ];
