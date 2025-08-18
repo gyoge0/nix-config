@@ -9,5 +9,6 @@
     "discord"
     "docker-desktop"
     "firefox"
+    "calibre" # calibre nixpkg is broken
   ];
 }
