@@ -1,4 +1,4 @@
-{ inputs, pkgs, ... }:
+{ ... }:
 {
   flake.modules.darwin.system.system.defaults.controlcenter = {
     AirDrop = false;

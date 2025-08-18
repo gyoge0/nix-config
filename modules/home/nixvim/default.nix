@@ -2,7 +2,7 @@
 {
   flake.modules = {
     homeManager.nixvim =
-      { pkgs, ... }:
+      { ... }:
       {
         imports = [
           inputs.nixvim.homeModules.nixvim

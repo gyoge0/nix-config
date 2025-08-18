@@ -1,4 +1,4 @@
-{ inputs, pkgs, ... }:
+{ ... }:
 {
   flake.modules.darwin.system.system.defaults.dock = {
     appswitcher-all-displays = false;

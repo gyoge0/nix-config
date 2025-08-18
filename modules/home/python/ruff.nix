@@ -1,7 +1,7 @@
 {
   flake.modules = {
     homeManager.python =
-      { pkgs, ... }:
+      { ... }:
       {
         programs.ruff = {
           enable = true;

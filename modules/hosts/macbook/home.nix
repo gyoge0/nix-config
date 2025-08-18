@@ -1,6 +1,6 @@
 {
   flake.modules.homeManager.host_macbook =
-    { pkgs, ... }:
+    { ... }:
     {
       # Host-specific home-manager configuration for macbook
       # This is a macOS system

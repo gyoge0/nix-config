@@ -1,9 +1,11 @@
 {
   flake.modules = {
-    homeManager.utils = { pkgs, ... }: {
-      programs.fd = {
-        enable = true;
+    homeManager.utils =
+      { ... }:
+      {
+        programs.fd = {
+          enable = true;
+        };
       };
-    };
   };
 }

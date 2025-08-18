@@ -1,9 +1,11 @@
 {
   flake.modules = {
-    homeManager.utils = { pkgs, ... }: {
-      home.packages = [
-        pkgs.du-dust
-      ];
-    };
+    homeManager.utils =
+      { pkgs, ... }:
+      {
+        home.packages = [
+          pkgs.du-dust
+        ];
+      };
   };
 }

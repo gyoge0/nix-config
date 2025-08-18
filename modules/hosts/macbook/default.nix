@@ -13,6 +13,7 @@
       inputs.self.modules.darwin.nix
       inputs.self.modules.darwin.nixpkgs
       inputs.self.modules.darwin.security
+      inputs.self.modules.darwin.ssh
       inputs.home-manager.darwinModules.home-manager
       {
         home-manager.useGlobalPkgs = true;
@@ -27,6 +28,7 @@
             shell
             utils
             claude
+            ssh
             host_macbook
             # ghostty # is broken right now
           ];

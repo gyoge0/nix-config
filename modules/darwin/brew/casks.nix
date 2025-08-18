@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ ... }:
 {
   flake.modules.darwin.brew.homebrew.casks = [
     "alt-tab"

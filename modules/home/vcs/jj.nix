@@ -3,7 +3,7 @@
 {
   flake.modules = {
     homeManager.vcs =
-      { pkgs, ... }:
+      { ... }:
       {
         programs.jujutsu = {
           enable = true;
@@ -26,6 +26,12 @@
             };
             git.private-commits = "private()";
             ui.pager = "less -FRX";
+
+            signing = {
+              behavior = "own";
+              backend = "ssh";
+              key = "~/.ssh/id_ed25519.pub";
+            };
           };
         };
       };

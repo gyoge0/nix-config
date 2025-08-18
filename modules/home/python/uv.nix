@@ -1,9 +1,11 @@
 {
   flake.modules = {
-    homeManager.python = { pkgs, ... }: {
-      programs.uv = {
-        enable = true;
+    homeManager.python =
+      { ... }:
+      {
+        programs.uv = {
+          enable = true;
+        };
       };
-    };
   };
 }

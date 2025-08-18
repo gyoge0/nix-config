@@ -1,9 +1,11 @@
 {
   flake.modules = {
-    homeManager.utils = { pkgs, ... }: {
-      programs.ripgrep = {
-        enable = true;
+    homeManager.utils =
+      { ... }:
+      {
+        programs.ripgrep = {
+          enable = true;
+        };
       };
-    };
   };
 }

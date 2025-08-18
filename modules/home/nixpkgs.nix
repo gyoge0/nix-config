@@ -1,9 +1,11 @@
-{ lib, ... }:
+{ ... }:
 
 {
   flake.modules = {
-    homeManager.nixpkgs = { pkgs, ... }: {
-      nixpkgs.config.allowUnfree = true;
-    };
+    homeManager.nixpkgs =
+      { ... }:
+      {
+        nixpkgs.config.allowUnfree = true;
+      };
   };
 }

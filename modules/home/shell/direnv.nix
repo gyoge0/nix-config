@@ -1,10 +1,12 @@
 {
   flake.modules = {
-    homeManager.shell = { pkgs, ... }: {
-      programs.direnv = {
-        enable = true;
-        enableBashIntegration = true;
+    homeManager.shell =
+      { ... }:
+      {
+        programs.direnv = {
+          enable = true;
+          enableBashIntegration = true;
+        };
       };
-    };
   };
 }
