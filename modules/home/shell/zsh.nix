@@ -36,7 +36,6 @@
             setopt AUTO_PUSHD
             # Enable correct command suggestions
             setopt CORRECT
-            export PROMPT="%B%F{yellow}zsh%f%b %F{green}''${''${USER#gyoge}:+''${USER}}@''${''${HOST#mbp}:+''${HOST}}%f %F{blue}%~%f ''$ "
           '';
         };
       };
