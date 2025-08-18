@@ -10,7 +10,6 @@
     modules = with config.flake.modules.homeManager; [
       core
       nixpkgs
-      packages
       nixvim
       vcs
       shell

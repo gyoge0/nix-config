@@ -24,7 +24,6 @@
           home.stateVersion = "25.05";
           imports = with config.flake.modules.homeManager; [
             core
-            packages
             nixvim
             vcs
             shell
