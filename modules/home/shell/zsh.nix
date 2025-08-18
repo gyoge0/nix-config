@@ -12,6 +12,8 @@
             ll = "ls -lFa --color=auto";
             upr = "source ~/.zshrc";
             epr = "$EDITOR ~/.zshrc";
+            # nix flakes uses # a lot which zsh doesn't like
+            nix = "noglob nix";
           };
           history = {
             ignoreDups = true;
