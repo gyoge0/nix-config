@@ -25,6 +25,7 @@
               pp = "public_parents(@)";
             };
             git.private-commits = "private()";
+            ui.pager = "less -FRX";
           };
         };
       };
