@@ -15,6 +15,8 @@
       inputs.self.modules.darwin.security
       inputs.self.modules.darwin.ssh
       inputs.home-manager.darwinModules.home-manager
+      inputs.self.modules.darwin.uvaProfile
+      inputs.agenix.darwinModules.default
       {
         home-manager.useGlobalPkgs = true;
         home-manager.useUserPackages = true;
