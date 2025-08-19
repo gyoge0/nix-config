@@ -5,6 +5,7 @@
     lsp = {
       servers = {
         nil_ls.enable = true;
+        beancount.enable = true;
       };
     };
   };
