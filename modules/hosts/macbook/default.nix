@@ -32,6 +32,7 @@
             ssh
             nix
             ideavim
+            python
             host_macbook
             # ghostty # is broken right now
           ];
