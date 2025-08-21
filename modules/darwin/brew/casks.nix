@@ -7,7 +7,7 @@
     "claude"
     "visual-studio-code"
     "discord"
-    "docker-desktop"
+    "orbstack"
     "firefox"
     "calibre" # calibre nixpkg is broken
   ];
