@@ -10,5 +10,6 @@
     "orbstack"
     "firefox"
     "calibre" # calibre nixpkg is broken
+    "skim"
   ];
 }
