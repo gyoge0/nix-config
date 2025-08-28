@@ -13,6 +13,7 @@
       nixvim
       vcs
       shell
+      devenv
       utils
       claude
       nix

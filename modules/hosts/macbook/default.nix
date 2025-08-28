@@ -27,6 +27,7 @@
             nixvim
             vcs
             shell
+            devenv
             utils
             claude
             ssh
