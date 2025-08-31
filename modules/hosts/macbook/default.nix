@@ -34,6 +34,7 @@
             nix
             ideavim
             python
+            brew
             host_macbook
             # ghostty # is broken right now
           ];
