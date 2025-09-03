@@ -10,6 +10,8 @@
           userName = lib.mkDefault "Yogesh Thambidurai";
           userEmail = lib.mkDefault "yogesh@gyoge.com";
 
+          lfs.enable = true;
+
           # SSH Commit Signing
           signing = {
             key = "~/.ssh/id_ed25519.pub";
