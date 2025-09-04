@@ -30,6 +30,7 @@
             devenv
             utils
             claude
+            tmux
             ssh
             nix
             ideavim
