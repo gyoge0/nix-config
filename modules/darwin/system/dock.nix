@@ -9,7 +9,6 @@
     show-process-indicators = true;
     show-recents = true;
     persistent-apps = [
-      { app = "/System/Applications/Launchpad.app"; }
       { app = "/System/Cryptexes/App/System/Applications/Safari.app"; }
       { app = "/System/Applications/Messages.app"; }
       { app = "/System/Applications/Photos.app"; }
