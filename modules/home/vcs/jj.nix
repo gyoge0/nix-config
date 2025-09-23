@@ -24,6 +24,7 @@
               public = "public()";
               "public_parents(x)" = "parents(x) ~ private()";
               pp = "public_parents(@)";
+              all = "all()";
             };
             git.private-commits = "private()";
             ui.pager = "less -FRX";
