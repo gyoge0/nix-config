@@ -15,6 +15,7 @@
             template-aliases = {
               ol = "builtin_log_oneline";
               full = "builtin_log_compact_full_description";
+              detail = "builtin_log_detailed";
             };
             revset-aliases = {
               "private()" = "description(glob:'private:*')";
