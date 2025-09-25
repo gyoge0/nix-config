@@ -37,6 +37,7 @@
             python
             brew
             r
+            bun
             host_macbook
             # ghostty # is broken right now
           ];
