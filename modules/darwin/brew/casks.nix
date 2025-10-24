@@ -14,6 +14,7 @@
       "skim"
       "zoom"
       "rstudio"
+      "dotnet-sdk"
     ];
     brews = [ "r" ];
   };
