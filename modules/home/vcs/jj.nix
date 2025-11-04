@@ -3,16 +3,10 @@
 {
   flake.modules = {
     homeManager.vcs =
-      { pkgs, ... }:
+      { ... }:
       {
         programs.jujutsu = {
           enable = true;
-          # https://github.com/NixOS/nixpkgs/issues/456113
-          package = pkgs.jujutsu.override {
-            rustPlatform = pkgs.rustPlatform // {
-              buildRustPackage = pkgs.rustPlatform.buildRustPackage.override { cargoNextestHook = null; };
-            };
-          };
           settings = {
             user = {
               name = lib.mkDefault "Yogesh Thambidurai";
