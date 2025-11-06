@@ -38,6 +38,7 @@
             brew
             r
             bun
+            pnpm
             host_macbook
             # ghostty # is broken right now
           ];
