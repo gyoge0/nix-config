@@ -15,6 +15,7 @@
       "zoom"
       "rstudio"
       "dotnet-sdk"
+      "microsoft-teams"
     ];
     brews = [ "r" ];
   };
