@@ -16,6 +16,7 @@
       "rstudio"
       "dotnet-sdk"
       "microsoft-teams"
+      "spotify"
     ];
     brews = [ "r" ];
   };

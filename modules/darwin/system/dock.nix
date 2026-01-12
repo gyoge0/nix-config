@@ -14,7 +14,7 @@
       { app = "/System/Applications/Photos.app"; }
       { app = "/System/Applications/Calendar.app"; }
       { app = "/System/Applications/Notes.app"; }
-      { app = "/System/Applications/Music.app"; }
+      { app = "/Applications/Spotify.app"; }
       { app = "/System/Applications/System Settings.app"; }
       { app = "/Applications/Firefox.app"; } # brew
       { app = "/Applications/Claude.app"; } # brew
