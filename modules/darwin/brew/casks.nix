@@ -17,6 +17,7 @@
       "dotnet-sdk"
       "microsoft-teams"
       "spotify"
+      "multiviewer"
     ];
     brews = [ "r" ];
   };
