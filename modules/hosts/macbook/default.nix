@@ -36,7 +36,6 @@
             ideavim
             python
             brew
-            r
             js
             host_macbook
             # ghostty # is broken right now

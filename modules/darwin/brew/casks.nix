@@ -13,7 +13,6 @@
       "calibre" # calibre nixpkg is broken
       "skim"
       "zoom"
-      "rstudio"
       "dotnet-sdk"
       "microsoft-teams"
       "spotify"
