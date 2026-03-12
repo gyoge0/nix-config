@@ -19,6 +19,7 @@
       "spotify"
       "prismlauncher"
       "multiviewer"
+      "zotero"
     ];
     brews = [ "r" ];
   };
