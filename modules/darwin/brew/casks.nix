@@ -19,6 +19,7 @@
       "prismlauncher"
       "multiviewer"
       "zotero"
+      "1password"
     ];
     brews = [ "r" ];
   };
