@@ -20,8 +20,9 @@
       url = "github:nix-community/home-manager";
     };
     import-tree.url = "github:vic/import-tree";
-    nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
     nixpkgs-lib.follows = "nixpkgs";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
   };
 
 }
