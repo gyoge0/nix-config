@@ -8,6 +8,7 @@
     den.aspects.languages._
     den.aspects.nixvim._
     den.aspects.office
+    den.aspects.nh
   ];
 
   den.hosts.aarch64-darwin.mbp.users.gyoge = { };
