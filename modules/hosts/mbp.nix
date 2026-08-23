@@ -8,6 +8,7 @@
     den.aspects.languages._
     den.aspects.nixvim._
     den.aspects.office
+    den.aspects.macos._
     den.aspects.nh
   ];
 
