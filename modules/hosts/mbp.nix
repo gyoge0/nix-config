@@ -9,6 +9,7 @@
     den.aspects.nixvim._
     den.aspects.office
     den.aspects.macos._
+    den.aspects.pi
     den.aspects.nh
   ];
 

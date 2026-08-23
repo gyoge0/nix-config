@@ -24,6 +24,7 @@
     nixpkgs-lib.follows = "nixpkgs";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     nixvim.url = "github:nix-community/nixvim/nixos-26.05";
+    pi.url = "github:lukasl-dev/pi.nix";
     treefmt-nix.url = "github:numtide/treefmt-nix";
   };
 
