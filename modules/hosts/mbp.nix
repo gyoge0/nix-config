@@ -1,6 +1,14 @@
-{ __findFile, ... }:
+{ den, __findFile, ... }:
 {
-  den.hosts.aarch64-darwin.mbp.users.gyoge = {
-    includes = [ <gyoge> ];
-  };
+  # gyoge's primary aspect; automatically attached to the declared user.
+  den.aspects.gyoge.includes = [
+    den.aspects.base._
+    den.aspects.desktop._
+    den.aspects.shell._
+    den.aspects.languages._
+    den.aspects.nixvim._
+    den.aspects.office
+  ];
+
+  den.hosts.aarch64-darwin.mbp.users.gyoge = { };
 }
