@@ -11,7 +11,8 @@
         epr = "$EDITOR ~/.zshrc";
         # nix flakes uses # a lot which zsh doesn't like
         nix = "noglob nix";
-        upc = "noglob sudo darwin-rebuild switch --flake ~/c2#mbp";
+        upc = "noglob nh darwin switch ~/nix-config#mbp";
+        upcd = "noglob nh darwin switch --dry ~/nix-config#mbp";
       };
       history = {
         ignoreDups = true;
