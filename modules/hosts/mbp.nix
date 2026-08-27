@@ -11,6 +11,7 @@
     den.aspects.macos._
     den.aspects.pi
     den.aspects.nh
+    den.aspects.aws
   ];
 
   den.hosts.aarch64-darwin.mbp.users.gyoge = { };
