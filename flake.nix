@@ -10,6 +10,10 @@
       url = "github:nix-darwin/nix-darwin";
     };
     den.url = "github:denful/den";
+    fenix = {
+      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:nix-community/fenix";
+    };
     flake-file.url = "github:vic/flake-file";
     flake-parts = {
       inputs.nixpkgs-lib.follows = "nixpkgs-lib";
