@@ -54,9 +54,12 @@ let
 in
 {
   # Declare the nixvim input here, next to where it is used.
-  # NOTE: no nixpkgs.follows -- nixvim pins its own tested nixpkgs revision
-  # and warns when the pins diverge.
-  flake-file.inputs.nixvim.url = "github:nix-community/nixvim/nixos-26.05";
+  flake-file.inputs.nixvim = {
+    url = "github:nix-community/nixvim/nixos-26.05";
+    # override nixpkgs to reduce closure size
+    # if things break with nixvim, remove this first!
+    inputs.nixpkgs.follows = "nixpkgs";
+  };
 
   den.classes.nixvim = { };
 
