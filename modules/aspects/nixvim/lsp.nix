@@ -4,7 +4,9 @@
     lsp = {
       servers = {
         beancount.enable = true;
-        clangd.enable = true;
+        # todo: figure out if I need this
+        # clangd pulls in clang which is large
+        #clangd.enable = true;
         docker_language_server.enable = true;
         html.enable = true;
         jinja_lsp.enable = true;
