@@ -7,7 +7,10 @@
   # NOTE: pi.nix's flake nixConfig requests the pi.cachix.org substituter;
   # we deliberately do not trust it -- the package builds locally from the
   # pinned upstream revision.
-  flake-file.inputs.pi.url = "github:lukasl-dev/pi.nix";
+  flake-file.inputs.pi = {
+    url = "github:lukasl-dev/pi.nix";
+    inputs.nixpkgs.follows = "nixpkgs";
+  };
 
   den.aspects.pi.homeManager =
     { pkgs, ... }:
