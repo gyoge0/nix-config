@@ -81,5 +81,6 @@ in
     imports = [ inputs.nixvim.homeModules.nixvim ];
     programs.nixvim.enable = lib.mkDefault true;
     programs.nixvim.nixpkgs.source = inputs.nixpkgs;
+    home.sessionVariables.EDITOR = "nvim";
   };
 }
