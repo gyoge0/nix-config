@@ -7,7 +7,7 @@
   inputs = {
     darwin = {
       inputs.nixpkgs.follows = "nixpkgs";
-      url = "github:nix-darwin/nix-darwin";
+      url = "github:nix-darwin/nix-darwin/nix-darwin-26.05";
     };
     den.url = "github:denful/den";
     fenix = {
