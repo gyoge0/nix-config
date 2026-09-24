@@ -8,6 +8,8 @@
       # treesitter doesn't support lazy loading
       # https://github.com/nvim-treesitter/nvim-treesitter/blob/9866036ec3c5db40700a9178494e0cfdcfe6ecfd/README.md?plain=1#L47-L48
       lazyLoad.enable = false;
+      # Keep parsers out of the Nix closure; nvim-treesitter installs them on demand.
+      grammarPackages = [ ];
       settings = {
         autoInstall = true;
         highlight = {

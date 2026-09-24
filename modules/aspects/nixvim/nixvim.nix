@@ -79,8 +79,12 @@ in
   # of where the editor ends up being installed.
   den.aspects.nixvim.editor.homeManager = {
     imports = [ inputs.nixvim.homeModules.nixvim ];
-    programs.nixvim.enable = lib.mkDefault true;
-    programs.nixvim.nixpkgs.source = inputs.nixpkgs;
+    programs.nixvim = {
+      enable = lib.mkDefault true;
+      withRuby = false;
+      withPython3 = false;
+      nixpkgs.source = inputs.nixpkgs;
+    };
     home.sessionVariables.EDITOR = "nvim";
   };
 }
