@@ -28,8 +28,10 @@
         setopt AUTO_PUSHD
         # correct command suggestions
         setopt CORRECT
-        # vi mode screws with fzf
-        bindkey -M viins '^R' fzf-history-widget
+        # zsh-vi-mode overwrites viins bindings during deferred initialization.
+        zvm_after_init_commands+=(
+          'bindkey -M viins "^R" fzf-history-widget'
+        )
       '';
       autosuggestion.enable = true;
       plugins = [
