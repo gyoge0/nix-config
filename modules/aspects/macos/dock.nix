@@ -19,6 +19,7 @@
           { app = "/System/Applications/Calendar.app"; }
           { app = "/System/Applications/Notes.app"; }
           { app = "${config.home.homeDirectory}/Applications/Home Manager Apps/Spotify.app"; }
+          { app = "/System/Applications/Firefox.app"; }
           { app = "/System/Applications/System Settings.app"; }
           { app = "${config.home.homeDirectory}/Applications/Home Manager Apps/Firefox.app"; }
           { app = "/Applications/ChatGPT.app"; } # brew
